@@ -31,6 +31,7 @@ print(Y)
 
 X = ['a', 'b']
 print(id(X))
+
 print(id(Y))
 print(Y)
 print(X)
