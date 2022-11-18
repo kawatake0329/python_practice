@@ -8,4 +8,5 @@ test
 print('XXXXX')
 
 # Apple price
-some_value = 100
+
+some_value = 100 # Apple price
