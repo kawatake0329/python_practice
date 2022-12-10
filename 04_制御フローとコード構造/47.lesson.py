@@ -2,4 +2,7 @@
 
 d = {'x': 100, 'y': 200}
 
-for v in
+print(d.items())
+
+for k, v in d.items():
+    print(k, ':', v)
