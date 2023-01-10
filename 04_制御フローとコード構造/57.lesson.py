@@ -6,7 +6,7 @@ def print_more(func):
         print('atgs:', args)
         print('kwargs:', kwargs)
         result = func(*args, **kwargs)
-        pritn('result:', result)
+        print('result:', result)
         return result
     return wrapper
 
@@ -14,7 +14,7 @@ def print_info(func):
     def wrapper(*args, **kwargs):
         print('start')
         result = func(*args, **kwargs)
-        pritn('end')
+        print('end')
         return result
     return wrapper
 
