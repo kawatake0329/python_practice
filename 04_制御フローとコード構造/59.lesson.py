@@ -28,6 +28,7 @@ for g in greeting():
 
 # 今日何をしたか等を表示される場合に使用される！
 g = greeting()
+c = counter()
 print(next(g))
 
 print(next(c))
