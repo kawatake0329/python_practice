@@ -13,6 +13,8 @@ except NameError as ex:
 # exception = 例外
 except Exception as ex:
     print('other:{}'.format(ex))
+else:
+    print('done')
 
 finally:
     print("last")
